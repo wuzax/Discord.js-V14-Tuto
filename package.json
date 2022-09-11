@@ -1,0 +1,21 @@
+{
+  "name": "botv14.2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.0.1",
+    "fs": "^0.0.1-security",
+    "glob": "^8.0.3",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.0",
+    "ms": "^2.1.3"
+  },
+  "description": ""
+}
