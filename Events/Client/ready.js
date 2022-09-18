@@ -1,6 +1,5 @@
 const {Client, channelLink, EmbedBuilder, time } = require("discord.js")
 const ms = require("ms")
-const { channels, readyTimestamp } = require("../..")
 
 module.exports = {
     name: "ready",
