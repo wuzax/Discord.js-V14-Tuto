@@ -11,6 +11,9 @@ const client = new Client({
     rest: { timeout: ms("1m")}
 })
 
+client.economy = require("dc.eco")
+client.economy.setMongoURL("url mongodb")
+
 client.commands = new Collection()
 client.events = new Collection()
 
